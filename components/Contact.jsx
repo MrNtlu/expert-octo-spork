@@ -51,7 +51,7 @@ const Contact = () => {
                             <form
                                 action='https://getform.io/f/420ccfd0-282d-4b18-a59f-300cba147d7d'
                                 method='POST'
-                                enctype='multipart/form-data' >
+                                encType='multipart/form-data' >
 
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Name</label>

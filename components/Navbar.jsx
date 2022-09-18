@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import ContactIcons from './ContactIcons';
 
-// https://youtu.be/CMx51wpd7g4?t=2636 43:56
+// https://youtu.be/CMx51wpd7g4?t=5291 1:28:11
 // https://vercel.com/guides/nextjs-prisma-postgres
 
 const Navbar = () => {

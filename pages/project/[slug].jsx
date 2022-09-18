@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-import { FindSlug, Projects } from '../../constants/Projects'
+import { FindSlug } from '../../constants/Projects'
 import { PageNotFoundError } from 'next/dist/shared/lib/utils'
 import ErrorPage from 'next/error'
 
