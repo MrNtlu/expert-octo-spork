@@ -7,7 +7,7 @@ const _baseImageDir = '/../public/assets/projects/'
 const Projects = () => {
     return (
         <div id='projects' className='w-full'>
-            <div className='max-w-[1240px] mx-auto px-2 py-16'>
+            <div className='max-w-[1240px] mx-auto px-2 pt-24'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
 
                 <h2 className='py-4'>What I&apos;ve Built</h2>
@@ -17,10 +17,8 @@ const Projects = () => {
                         let _image = _baseImageDir + value.slug + '.png'
                         return <li key={value.slug} className='list-none'>
                             <ProjectItem
-                                title={value.name}
-                                backgroundImg={_image}
-                                projectUrl={value.slug}
-                                tags={value.tags} />
+                                project={value}
+                                backgroundImg={_image} />
                         </li>
                     })}
                 </div>

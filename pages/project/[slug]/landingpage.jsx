@@ -6,7 +6,7 @@ const slugLandingPage = () => {
     const { slug } = router.query
 
     return (
-        <div>{slug}</div>
+        <div>Slug{slug}</div>
     )
 }
 

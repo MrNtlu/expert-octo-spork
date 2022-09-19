@@ -36,7 +36,7 @@ const Navbar = () => {
                     ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
                     : 'fixed w-full h-20 z-[100]'
             } >
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+            <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
                 <Image src="/../public/assets/navLogo.jpg" alt="/" width='60' height='60' className='rounded-full' />
                 <div>
                     <ul className='hidden md:flex'>
@@ -44,8 +44,8 @@ const Navbar = () => {
                             <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                         </Link>
 
-                        <Link href='/#about'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+                        <Link href='/#experience'>
+                            <li className='ml-10 text-sm uppercase hover:border-b'>Experience</li>
                         </Link>
 
                         <Link href='/#skills'>
@@ -85,9 +85,7 @@ const Navbar = () => {
                             </div>
                         </div>
 
-                        <div className='border-b border-gray-300 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>This is an example text.</p>
-                        </div>
+                        <div className='border-b border-gray-300 mt-8' />
                     </div>
 
                     <div className='py-4 flex flex-col'>
@@ -96,8 +94,8 @@ const Navbar = () => {
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
                             </Link>
 
-                            <Link href='/#about'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>About</li>
+                            <Link href='/#experience'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Experience</li>
                             </Link>
 
                             <Link href='/#skills'>
@@ -116,14 +114,6 @@ const Navbar = () => {
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
-
-                        <div className='pt-40'>
-                            <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
-
-                            <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <ContactIcons />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

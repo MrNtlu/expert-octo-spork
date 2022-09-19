@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const Skills = () => {
-    const skillSet = ["Android", "iOS", "Flutter", "Github", "Firebase", "Mongo"]
+    const skillSet = ["Android", "iOS", "Flutter", "Kotlin", "Swift", "GoLang", "Python", "MongoDB", "Django", "Java", "Firebase", "Github"]
 
     return (
         <div id='skills' className='w-full lg:h-screen p-2'>
@@ -15,9 +15,9 @@ const Skills = () => {
                     {skillSet.map((value, _) => {
                         return <li key={value} className='list-none'>
                             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                                <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='grid grid-cols-2 gap-3 justify-center items-center'>
                                     <div className='m-auto'>
-                                        <Image src={`/../public/assets/skills/${value}.png`} width='64px' height='64px' alt='/' />
+                                        <Image src={`/../public/assets/skills/${value}.png`} width='68px' height='68px' alt='/' />
                                     </div>
 
                                     <div className='flex flex-col items-center justify-center'>

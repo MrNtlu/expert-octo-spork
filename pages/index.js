@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import About from '../components/About'
+import About from '../components/Experience'
 import Contact from '../components/Contact'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
