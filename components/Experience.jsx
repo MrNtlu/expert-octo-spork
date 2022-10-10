@@ -16,7 +16,7 @@ const About = () => {
                     <div className='flex flex-col gap-y-3 h-screen overflow-scroll w-full'>
                         {PortfolioExperiences.map((value, _) => {
 
-                            return <div className="p-5 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
+                            return <div key={value.company} className="p-5 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
                                 <p className="mb-2 text-lg font-bold text-gray-900">{value.company}</p>
 
                                 <p className='text-black text-lg font-medium'>{value.position} <span className='font-medium'>|</span> {value.start_date} {value.end_date != null ? '- ' + value.end_date : null}</p>

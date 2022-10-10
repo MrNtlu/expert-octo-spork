@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 
-const slugLandingPage = () => {
+const useSlugLandingPage = () => {
     const router = useRouter()
     const { slug } = router.query
 
@@ -10,4 +10,4 @@ const slugLandingPage = () => {
     )
 }
 
-export default slugLandingPage
+export default useSlugLandingPage

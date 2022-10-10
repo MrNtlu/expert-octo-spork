@@ -16,7 +16,7 @@ const ProjectItem = ({ project, backgroundImg }) => {
 
         <div className='flex flex-wrap justify-center pt-3 gap-2 w-[90%]'>
           {project.tags.map((value, _) => {
-            return <Chip tag={value} />
+            return <Chip key={value} tag={value} />
           })}
         </div>
       </div>

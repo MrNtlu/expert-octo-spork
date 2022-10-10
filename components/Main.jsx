@@ -9,7 +9,7 @@ const Main = () => {
                     <p className='uppercase text-sm tracking-widest text-gray-600'>Istanbul - Turkey</p>
 
                     <h1 className='py-4 text-gray-700'>
-                        Hi, I'm <span className='text-[#5651e5]'>Burak</span>
+                        Hi, I&apos;m <span className='text-[#5651e5]'>Burak</span>
                     </h1>
 
                     <h1 className='py-4 text-gray-700'>

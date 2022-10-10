@@ -1,10 +1,8 @@
 import React from 'react'
-import { useRouter } from 'next/router'
 import { FindSlug } from '../../constants/Projects'
-import { PageNotFoundError } from 'next/dist/shared/lib/utils'
 import ErrorPage from 'next/error'
 
-const projectSlug = () => {
+const useProjectSlug = () => {
     const router = useRouter()
     const { slug } = router.query
     
@@ -21,4 +19,4 @@ const projectSlug = () => {
     }
 }
 
-export default projectSlug
+export default useProjectSlug
