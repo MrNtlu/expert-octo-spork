@@ -2,16 +2,11 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import ContactIcons from './ContactIcons';
-
-// https://youtu.be/CMx51wpd7g4?t=5291 1:28:11
-// https://vercel.com/guides/nextjs-prisma-postgres
+import NavImg from '../public/assets/navLogo.jpg';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3');
-    const [linkColor, setLinkColor] = useState('#1f2937');
 
     const handleNav = () => {
         setNav(!nav)
@@ -30,14 +25,14 @@ const Navbar = () => {
 
     return (
         <div
-            style={{ backgroundColor: `${navBg}` }}
+            style={{ backgroundColor: "#ecf0f3" }}
             className={
                 shadow
                     ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
                     : 'fixed w-full h-20 z-[100]'
             } >
             <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
-                <Image src="/../public/assets/navLogo.jpg" alt="/" width='60' height='60' className='rounded-full' />
+                <Image src={NavImg} alt="/" width='60' height='60' className='rounded-full' />
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
