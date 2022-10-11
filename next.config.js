@@ -4,8 +4,10 @@ const nextConfig = {
   swcMinify: true,
 }
 
-export const images = {
-  domains: ['localhost', 'burakfidan.com'],
+module.exports = {
+  images: {
+    domains: ['localhost','burakfidan.com'],
+  },
 };
 
-export default nextConfig
+module.exports = nextConfig
