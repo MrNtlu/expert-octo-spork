@@ -18,6 +18,8 @@ const Skills = () => {
                                 <div className='grid grid-cols-2 gap-3 justify-center items-center'>
                                     <div className='m-auto'>
                                         <Image src={`/../public/static/assets/skills/${value}.png`} width='68px' height='68px' alt='/' />
+                                        <Image src={`/../static/assets/skills/${value}.png`} width='68px' height='68px' alt='/' />
+                                        <Image src={`/static/assets/skills/${value}.png`} width='68px' height='68px' alt='/' />
                                     </div>
 
                                     <div className='flex flex-col items-center justify-center'>
