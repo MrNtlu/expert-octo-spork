@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import NavImg from '../public/assets/navLogo.jpg';
+import NavImg from '../public/static/assets/navLogo.jpg';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -74,7 +74,7 @@ const Navbar = () => {
                 }>
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src='/../public/assets/navLogo.jpg' width='35' height='35' alt='/' className='rounded-full' />
+                            <Image src={NavImg} width='35' height='35' alt='/' className='rounded-full' />
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>

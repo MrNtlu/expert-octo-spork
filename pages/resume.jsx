@@ -14,7 +14,7 @@ const resume = () => {
                 <link rel='icon' href='/fav.png' />
             </Head>
 
-            <iframe className='h-screen w-screen' src='assets/resume.pdf#zoom=FitH' />
+            <iframe className='h-screen w-screen' src='/static/assets/resume.pdf#zoom=FitH' />
         </>
     )
 }

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/static/assets/about.jpg';
 import { PortfolioExperiences } from '../constants/Experiences'
 
 const About = () => {

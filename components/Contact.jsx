@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.jpg'
+import ContactImg from '../public/static/assets/contact.jpg'
 import ContactIcons from './ContactIcons';
 
 const Contact = () => {
