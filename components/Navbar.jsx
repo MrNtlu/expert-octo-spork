@@ -36,27 +36,27 @@ const Navbar = () => {
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+                            <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Home</li>
                         </Link>
 
                         <Link href='/#experience'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Experience</li>
+                            <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Experience</li>
                         </Link>
 
                         <Link href='/#skills'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                            <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Skills</li>
                         </Link>
 
                         <Link href='/#projects'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                            <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Projects</li>
                         </Link>
 
                         <Link href='/resume'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Resume</li>
+                            <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Resume</li>
                         </Link>
 
                         <Link href='/#contact'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+                            <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Contact</li>
                         </Link>
                     </ul>
 
