@@ -18,7 +18,6 @@ const Skills = () => {
                                 <div className='grid grid-cols-2 gap-3 justify-center items-center'>
                                     <div className='m-auto'>
                                         <Image src={require(`../public/static/assets/skills/${value.toLowerCase()}.png`)} width='68px' height='68px' alt='/' />
-                                        <Image src={require(`/static/assets/skills/${value.toLowerCase()}.png`)} width='68px' height='68px' alt='/' />
                                     </div>
 
                                     <div className='flex flex-col items-center justify-center'>
