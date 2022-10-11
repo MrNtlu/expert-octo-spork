@@ -2,8 +2,6 @@ import React from 'react'
 import ProjectItem from './ProjectItem';
 import { PortfolioProjects } from '../constants/Projects'
 
-const _baseImageDir = '../static/assets/projects/'
-
 const Projects = () => {
     return (
         <div id='projects' className='w-full'>
@@ -14,7 +12,7 @@ const Projects = () => {
 
                 <div className='grid md:grid-cols-2 gap-8'>
                     {PortfolioProjects.map((value, _) => {
-                        let _image = _baseImageDir + value.slug + '.png'
+                        let _image = value.slug + '.png'
                         return <li key={value.slug} className='list-none'>
                             <ProjectItem
                                 project={value}

@@ -8,7 +8,7 @@ const ProjectItem = ({ project, backgroundImg }) => {
   return (
     <div className='relative h-full w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
       <div className='flex flex-col justify-center items-center py-4 px-6 gap-6 group-hover:opacity-5'>
-        <Image className='rounded-xl' src={backgroundImg} alt='/' height={120} width={120} />
+        <Image className='rounded-xl' src={require(`../public/static/assets/projects/${backgroundImg}`)} alt='/' height={120} width={120} />
 
         <p className='grow w-full text-3xl font-bold'>{project.name}</p>
 
