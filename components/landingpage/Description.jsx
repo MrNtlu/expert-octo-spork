@@ -10,7 +10,7 @@ function Description({ description, features }) {
             </div>
             <div className="feature mt-[5rem] grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:gap-0 gap-6">
                 {features.map((value, _) => {
-                    return <Feature icon={value.icon} title={value.title} description={value.description} />
+                    return <Feature key={value.title} icon={value.icon} title={value.title} description={value.description} />
                 })}
             </div>
         </div>
