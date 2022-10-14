@@ -3,8 +3,8 @@ import { IoLogoGithub } from 'react-icons/io'
 import { IoLogoGooglePlaystore } from 'react-icons/io5'
 import { SiAppstore } from 'react-icons/si'
 
-const ProjectIcons = ({ playstore = null, appstore = null, github = null }) => {
-    const _iconSize = 35;
+const ProjectIcons = ({ playstore = null, appstore = null, github = null, iconSize = 35 }) => {
+    const _iconSize = iconSize;
     const _color = 'white'
     const _iconDivClass = 'rounded-full p-4 cursor-pointer hover:scale-150 ease-in duration-300'
 

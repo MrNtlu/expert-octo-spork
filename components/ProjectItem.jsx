@@ -22,12 +22,12 @@ const ProjectItem = ({ project, backgroundImg }) => {
       </div>
 
       <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full'>
-        <ProjectIcons github={project.github} appstore={project.appstore} playstore={project.playstore} />
+        <ProjectIcons github={project.github} appstore={project.appstore} playstore={project.playstore} iconSize={48} />
 
         <div className='flex flex-wrap gap-4 justify-center pt-6'>
-          <Link href={`project/${project.slug}`}>
+          {/* <Link href={`project/${project.slug}`}>
             <p className='text-center w-36 py-3 rounded-lg bg-black text-white font-bold text-lg cursor-pointer hover:scale-110 ease-in duration-300'>More Info</p>
-          </Link>
+          </Link> */}
 
           {
             project.isLandingPageActive
