@@ -12,6 +12,20 @@ export const PortfolioProjects = [
         isLandingPageActive: true,
     },
     {
+        slug: "passvault",
+        name: "PassVault - Online & Offline Manager",
+        description: `App uses Jetpack Compose, Room Caching, Kotlin, Retrofit, MVVM, Hilt and Parse SDK.
+        
+        Online manager keeps passwords on the cloud with encryption.
+
+        Offline manager keeps passwords locally on RealmDB on users phone.`,
+        tags: ["Android", "Kotlin", "Jetpack Compose", "Room Caching", "Parse", "RealmDB", "MVVM", "Hilt" ],
+        github: "https://github.com/MrNtlu/PassVault",
+        playstore: "https://play.google.com/store/apps/details?id=com.mrntlu.PassVault",
+        appstore: null,
+        isLandingPageActive: true,
+    },
+    {
         slug: "mai_2",
         name: "MyAnimeInfo 2 – MyAnimeList Anime & Manga Browser",
         description: `App uses Jikan API, SQLite, Room, MVVM with LiveData, Coroutines, Navigation Components and Retrofit.
@@ -56,18 +70,6 @@ export const PortfolioProjects = [
         tags: ["Android", "Java", "MVVM", "RxJava", "LiveData", "SQLite", "Dagger 2", "Room"],
         github: "https://github.com/MrNtlu/FriendsLeagueTable",
         playstore: "https://play.google.com/store/apps/details?id=com.mrntlu.friendsleaguetable",
-        appstore: null,
-        isLandingPageActive: false,
-    },
-    {
-        slug: "passvault",
-        name: "PassVault",
-        description: `This app allows you to save all the mails, accounts, game accounts, bank accounts etc. to your phone without using database. 
-        
-        All accounts will be stored in local devices memory.`,
-        tags: ["Android", "Java", "Parse", "RealmDB", "MVVM" ],
-        github: "https://github.com/MrNtlu/PassVault",
-        playstore: "https://play.google.com/store/apps/details?id=com.mrntlu.PassVault",
         appstore: null,
         isLandingPageActive: false,
     },

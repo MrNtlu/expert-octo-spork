@@ -31,6 +31,38 @@ export const LandingPages = [
             },
         ]
     },
+    {
+        slug: "passvault",
+        name: "PassVault - Online & Offline Manager",
+        title: "PassVault",
+        sTitle: "Online & Offline Manager",
+        subTitle: "Store your passwords safe & securely.",
+        description: "Best Offline and Online Password Manager! Safe and secured. It's just between you and your phone!",
+        playstore: "https://play.google.com/store/apps/details?id=com.mrntlu.kantan",
+        appstore: null,
+        features: [
+            {
+                icon: "online",
+                title: "Online Storage",
+                description: "Keep your passwords on the cloud with encryption."
+            },
+            {
+                icon: "offline",
+                title: "Offline Storage",
+                description: "Keeps your passwords locally, no 3rd party access."
+            },
+            {
+                icon: "easy",
+                title: "Simple & Secured",
+                description: "Keep your credentials safely."
+            },
+            {
+                icon: "theme",
+                title: "Dark Theme",
+                description: "Multiple theme support."
+            },
+        ]
+    },
 ]
 
 export const FindSlug = (slug) => {
