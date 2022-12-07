@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { AiFillMail } from 'react-icons/ai'
-import { BsFillPersonFill } from 'react-icons/bs'
+import { AiFillMail, AiOutlineMedium } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 
 const ContactIcons = () => {
@@ -33,10 +32,10 @@ const ContactIcons = () => {
                 </div>
             </a>
 
-            <Link href='/resume'>
+            <Link href='https://burakdev.medium.com/'>
                 <a>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonFill size={_iconSize} />
+                        <AiOutlineMedium size={_iconSize} />
                     </div>
                 </a>
             </Link>

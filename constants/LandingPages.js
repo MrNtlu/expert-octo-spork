@@ -38,7 +38,7 @@ export const LandingPages = [
         sTitle: "Online & Offline Manager",
         subTitle: "Store your passwords safe & securely.",
         description: "Best Offline and Online Password Manager! Safe and secured. It's just between you and your phone!",
-        playstore: "https://play.google.com/store/apps/details?id=com.mrntlu.kantan",
+        playstore: "https://play.google.com/store/apps/details?id=com.mrntlu.PassVault",
         appstore: null,
         features: [
             {
