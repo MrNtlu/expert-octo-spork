@@ -39,6 +39,10 @@ const Navbar = () => {
                             <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Home</li>
                         </Link>
 
+                        <Link href='https://medium.com/@burakdev'>
+                            <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Blog</li>
+                        </Link>
+
                         <Link href='/#experience'>
                             <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>Experience</li>
                         </Link>
