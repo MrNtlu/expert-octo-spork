@@ -18,12 +18,10 @@ const Main = () => {
                     </h1>
 
                     <h1 className='py-4 text-gray-700'>
-                        A Software Developer
+                        A Software Developer 👨‍💻
                     </h1>
 
-                    <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                        Computer Engineering Student and Developer
-                    </p>
+                    <br/>
 
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
                         <div className='flex flex-col gap-4 w-full'>
