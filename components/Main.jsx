@@ -3,7 +3,7 @@ import { AiFillMail, AiOutlineMedium } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import Link from 'next/link'
 
-
+// TODO Add new projects
 const Main = () => {
     const _iconSize = 27;
 
