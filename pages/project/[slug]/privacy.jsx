@@ -1,19 +1,16 @@
-import Head from 'next/head'
-import React, { useEffect } from 'react'
-import { useRouter } from 'next/router'
-import Header from '../../../components/landingpage/Header'
-import Description from '../../../components/landingpage/Description'
-import ErrorPage from 'next/error'
 import { FindSlug } from '../../../constants/LandingPages'
-import Hero from '../../../components/landingpage/Hero'
+import ErrorPage from 'next/error'
+import { useRouter } from 'next/router'
+import Head from 'next/head'
+import Header from '../../../components/landingpage/Header'
 
-const useSlugLandingPage = () => {
+const usePrivacyPage = () => {
     const router = useRouter()
     const { slug } = router.query
     const title = (slug + "").charAt(0).toUpperCase() + (slug + "").slice(1)
 
     let project = FindSlug(slug)
-
+    
     if (router.isReady) {
         if (project != undefined) {
             return (
@@ -34,24 +31,17 @@ const useSlugLandingPage = () => {
 
                     <Header slug={project.slug}/>
 
-                    <Hero
-                        slug={project.slug}
-                        title={project.title}
-                        sTitle={project.sTitle}
-                        subTitle={project.subTitle}
-                        google={project.playstore}
-                        ios={project.appstore}
-                    />
-
-                    <Description description={project.description} features={project.features} />
+                    <div className="flex flex-col items-center justify-start px-[5rem] p-[5rem] relative z-[2] pt-[7rem] bg-[#FFFFFF]">
+                        {project.privacy}
+                    </div>
                 </div>
             )
-        } else {
+        }else {
             return <ErrorPage statusCode={404} />
         }
     } else {
-        return <div></div> //TODO: Implement loading
+        return <div></div>
     }
 }
 
-export default useSlugLandingPage
+export default usePrivacyPage
