@@ -1,9 +1,19 @@
 export const PortfolioProjects = [
     {
+        slug: "watchlistfy",
+        name: "WatchListfy - Track Your Fun!",
+        description: `Discover Anime, Movies, TV Shows, Games - all in one app! Track & list your fun.`,
+        tags: ["Android", "Kotlin", "Room Caching", "MVVM", "Hilt", "LiveData", "Coroutines", "Retrofit", "Go", "MongoDB", "Open Api", "Scraper"],
+        github: "https://github.com/MrNtlu/Project-Consumer-Android",
+        playstore: "https://play.google.com/store/apps/details?id=com.mrntlu.projectconsumer",
+        appstore: null,
+        isLandingPageActive: false,
+    },
+    {
         slug: "kanma",
         name: "Kanma - Personal Finance Manager",
         description: `Personal Finance Manager. It helps users to track their investments, transactions and subscriptions and it's totally open source.
-        
+
         Users can track all their investments, subscriptions and expense/incomes in one app and they can get detailed statistics.`,
         tags: ["Go", "MongoDB", "Flutter", "Redis", "Open Api", "Scraper", "React", "TailwindCSS"],
         github: "https://github.com/MrNtlu/Asset-Manager",
@@ -15,7 +25,7 @@ export const PortfolioProjects = [
         slug: "passvault",
         name: "PassVault - Online & Offline Manager",
         description: `App uses Jetpack Compose, Room Caching, Kotlin, Retrofit, MVVM, Hilt and Parse SDK.
-        
+
         Online manager keeps passwords on the cloud with encryption.
 
         Offline manager keeps passwords locally on RealmDB on users phone.`,

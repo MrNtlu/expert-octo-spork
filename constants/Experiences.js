@@ -1,5 +1,12 @@
 export const PortfolioExperiences = [
     {
+        company: "Watchlistfy App",
+        position: "Android Developer",
+        start_date: "Jan 2023",
+        end_date: "Sep 2023",
+        description: "Native Android and Backend with Go, MongoDB, Redis & Open API."
+    },
+    {
         company: "Kanma App",
         position: "Software Developer",
         start_date: "Jan 2022",
