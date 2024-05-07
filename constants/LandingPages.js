@@ -42,26 +42,26 @@ export const LandingPages = [
         This page is used to inform visitors regarding my
         policies with the collection, use, and disclosure of Personal
         Information if anyone decided to use my Service.
-    </p> 
+    </p>
     <p>
         If you choose to use my Service, then you agree to
         the collection and use of information in relation to this
         policy. The Personal Information that I collect is
         used for providing and improving the Service. I will not use or share your information with
         anyone except as described in this Privacy Policy.
-    </p> 
+    </p>
     <p>
         The terms used in this Privacy Policy have the same meanings
         as in our Terms and Conditions, which are accessible at
         Kanma unless otherwise defined in this Privacy Policy.
-    </p> 
-    <p><strong>Information Collection and Use</strong></p> 
+    </p>
+    <p><strong>Information Collection and Use</strong></p>
     <p>
         For a better experience, while using our Service, I
         may require you to provide us with certain personally
         identifiable information, including but not limited to Burak Fidan. The information that
         I request will be retained on your device and is not collected by me in any way.
-    </p> 
+    </p>
     <div>
         <p>
             The app does use third-party services that may collect
@@ -70,15 +70,15 @@ export const LandingPages = [
         <p>
             Link to the privacy policy of third-party service providers used
             by the app
-        </p> 
+        </p>
         <ul className='list-disc ml-[3rem] space-y-2 my-2'>
             <li><a className="text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
             <li><a className="text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
             <li><a className="text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
             <li><a className="text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat</a></li>
         </ul>
-    </div> 
-    <p><strong>Log Data</strong></p> 
+    </div>
+    <p><strong>Log Data</strong></p>
     <p>
         I want to inform you that whenever you
         use my Service, in a case of an error in the app
@@ -90,13 +90,13 @@ export const LandingPages = [
         the time and date of your use of the Service, and other
         statistics.
     </p>
-    <p><strong>Cookies</strong></p> 
+    <p><strong>Cookies</strong></p>
     <p>
         Cookies are files with a small amount of data that are
         commonly used as anonymous unique identifiers. These are sent
         to your browser from the websites that you visit and are
         stored on your device's internal memory.
-    </p> 
+    </p>
     <p>
         This Service does not use these “cookies” explicitly. However,
         the app may use third-party code and libraries that use
@@ -106,17 +106,17 @@ export const LandingPages = [
         choose to refuse our cookies, you may not be able to use some
         portions of this Service.
     </p>
-    <p><strong>Service Providers</strong></p> 
+    <p><strong>Service Providers</strong></p>
     <p>
         I may employ third-party companies and
         individuals due to the following reasons:
-    </p> 
+    </p>
     <ul>
-        <li>To facilitate our Service;</li> 
-        <li>To provide the Service on our behalf;</li> 
-        <li>To perform Service-related services; or</li> 
+        <li>To facilitate our Service;</li>
+        <li>To provide the Service on our behalf;</li>
+        <li>To perform Service-related services; or</li>
         <li>To assist us in analyzing how our Service is used.</li>
-    </ul> 
+    </ul>
     <p>
         I want to inform users of this Service
         that these third parties have access to their Personal
@@ -124,7 +124,7 @@ export const LandingPages = [
         them on our behalf. However, they are obligated not to
         disclose or use the information for any other purpose.
     </p>
-    <p><strong>Security</strong></p> 
+    <p><strong>Security</strong></p>
     <p>
         I value your trust in providing us your
         Personal Information, thus we are striving to use commercially
@@ -132,8 +132,8 @@ export const LandingPages = [
         of transmission over the internet, or method of electronic
         storage is 100% secure and reliable, and I cannot
         guarantee its absolute security.
-    </p> 
-    <p><strong>Links to Other Sites</strong></p> 
+    </p>
+    <p><strong>Links to Other Sites</strong></p>
     <p>
         This Service may contain links to other sites. If you click on
         a third-party link, you will be directed to that site. Note
@@ -144,7 +144,7 @@ export const LandingPages = [
         privacy policies, or practices of any third-party sites or
         services.
     </p>
-    <p><strong>Children's Privacy</strong></p> 
+    <p><strong>Children's Privacy</strong></p>
     <div>
         <p>
             These Services do not address anyone under the age of 13.
@@ -157,8 +157,8 @@ export const LandingPages = [
             personal information, please contact me so that
             I will be able to do the necessary actions.
         </p>
-    </div> 
-    <p><strong>Changes to This Privacy Policy</strong></p> 
+    </div>
+    <p><strong>Changes to This Privacy Policy</strong></p>
     <p>
         I may update our Privacy Policy from
         time to time. Thus, you are advised to review this page
@@ -166,8 +166,8 @@ export const LandingPages = [
         notify you of any changes by posting the new Privacy Policy on
         this page.
     </p>
-    <p>This policy is effective as of 2022-05-10</p> 
-    <p><strong>Contact Us</strong></p> 
+    <p>This policy is effective as of 2022-05-10</p>
+    <p><strong>Contact Me</strong></p>
     <p>
         If you have any questions or suggestions about my
         Privacy Policy, do not hesitate to contact me at mrntlu@gmail.com.
